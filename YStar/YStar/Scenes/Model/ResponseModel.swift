@@ -108,7 +108,7 @@ class BindBankModel: BaseModel {
 class CircleListModel: Object {
     dynamic var symbol = ""
     dynamic var symbol_name = ""
-    dynamic var head_url = ""
+    dynamic var head_url_tail = ""
     dynamic var circle_id:Int64 = 0
     dynamic var create_time:Int64 = 0
     dynamic var content = ""
@@ -203,7 +203,7 @@ class FansListModel : Object {
     
     dynamic var starcode : String = ""
     dynamic var faccid : String = ""
-    dynamic var head_url : String = ""
+    dynamic var head_url_tail : String = ""
     dynamic var nickname : String = ""
     dynamic var ownseconds : Int = 0
     dynamic var appoint : Int = 0
@@ -241,7 +241,7 @@ class MeetTypeModel: BaseModel{
 class MeetOrderModel: BaseModel{
     var appoint_time = ""
     var comment = ""
-    var headurl = ""
+    var head_url_tail = ""
     var id = 0
     var meet_city = ""
     var meet_type = 0
